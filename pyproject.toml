@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bank-management-system"
+version = "0.1.0"
+description = "This project allows us to handle bank accounts such as Admin or Customer each of which has its own methods and tasks."
+authors = ["Muhammad Mustafa"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mysql-connector-python = "^9.0.0"
+uuid = "^1.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
