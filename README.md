@@ -14,3 +14,9 @@ Admin has rights to:
 Whereas Customer has rights to:
 1. Withdraw cash from account
 2. Check account balance
+
+For creating and maintaining project environment, I have used "poetry".
+
+Following dependencies were installed:
+1. uuid (To generate customer id and account id)
+2. mysql-connector-python (For connecting local established mySQL database.)
